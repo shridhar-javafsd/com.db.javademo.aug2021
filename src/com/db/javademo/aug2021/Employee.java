@@ -3,9 +3,9 @@ package com.db.javademo.aug2021;
 public class Employee {
 
 	// fields
-	int id;
-	String fName;
-	double salary;
+	public int id;
+	public String fName;
+	public double salary;
 //	double salary = 0.5;
 
 	// constructors
