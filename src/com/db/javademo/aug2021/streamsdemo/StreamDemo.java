@@ -52,13 +52,14 @@ public class StreamDemo {
 		// using filter() to get specified data
 		System.out.println("\nUsing filter() to get specified data ");
 
-		Stream<Employee> empWithMoreSal = empList.stream();
-		empWithMoreSal.filter(e ->   e.salary > 14000 )
-		.forEach( e2 -> System.out.println(e2.toString())); 
+		Stream<Employee> empWithMoreSal;
+		empWithMoreSal = empList.stream();
+		empWithMoreSal.filter(e -> e.salary > 14000);
+		empWithMoreSal.forEach( e2 -> System.out.println(e2.toString())); 
 				
 		
-//				.filter(emp -> emp.salary > 15000);
-//		empWithMoreSal.forEach(emp -> System.out.println(emp.toString()));
+//		Stream<Employee> empWithMoreSal2= empList.stream();
+//		empWithMoreSal2.filter(emp -> emp.salary > 15000).forEach(emp -> System.out.println(emp.toString()));
 
 
 
