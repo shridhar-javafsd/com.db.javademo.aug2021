@@ -62,6 +62,7 @@ public class StreamDemo {
 //		empWithMoreSal2.filter(emp -> emp.salary > 15000).forEach(emp -> System.out.println(emp.toString()));
 
 
+		
 
 	}
 }
