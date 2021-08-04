@@ -2,12 +2,21 @@ package com.db.javademo.aug2021;
 
 public class Employee {
 
+	// fields 
 	int id;
 	String fName;
 	double salary;
+//	double salary = 0.5;
 
+	// constructors 
 	public Employee() {
+		super();
+	}
 
+	public Employee(int id, String fName) {
+		super();
+		this.id = id;
+		this.fName = fName;
 	}
 
 	public Employee(int id, String fName, double salary) {

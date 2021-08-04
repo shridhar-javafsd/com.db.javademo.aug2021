@@ -1,15 +1,5 @@
 package com.db.javademo.aug2021;
 
-class ClassThree {
-	int num;
-
-}
-
-class ClassTwo {
-	int num3;
-
-}
-
 public class App2 {
 
 	static int add(int a, int b) {
@@ -46,6 +36,14 @@ public class App2 {
 		employee2.salary = 20.5;
 		System.out.println(employee2.toString());
 		employee2.work();
+
+		Employee employee3 = new Employee(103, "Tonu", 15.5);
+		System.out.println(employee3.toString());
+		employee3.work();
+
+		Employee employee4 = new Employee(104, "Gonu");
+		System.out.println(employee4.toString());
+		employee4.work();
 	}
 
 }
