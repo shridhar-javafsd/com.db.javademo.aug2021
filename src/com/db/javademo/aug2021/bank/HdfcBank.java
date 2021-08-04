@@ -2,17 +2,20 @@ package com.db.javademo.aug2021.bank;
 
 public class HdfcBank implements Rbi {
 
-	void acceptDeposits() {
+//	public abstract void doKyc2()  ; // what 
+	
+	public void acceptDeposits() {
 
 	}
-
-	void giveLoans() {
+	
+	public void giveLoans() // what 
+	// how 
+	{
 
 	}
 
 	@Override
-	public void doKyc() {
-
+	public void doKyc() { // how 
+		System.out.println("Please submit Aadhaar.");
 	}
-
 }

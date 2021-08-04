@@ -2,13 +2,13 @@ package com.db.javademo.aug2021;
 
 public class Employee {
 
-	// fields 
+	// fields
 	int id;
 	String fName;
 	double salary;
 //	double salary = 0.5;
 
-	// constructors 
+	// constructors
 	public Employee() {
 		super();
 	}
