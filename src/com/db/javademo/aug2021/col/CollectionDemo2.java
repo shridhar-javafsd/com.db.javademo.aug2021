@@ -3,6 +3,8 @@ package com.db.javademo.aug2021.col;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.db.javademo.aug2021.Employee;
+
 public class CollectionDemo2 {
 	
 	
@@ -17,14 +19,18 @@ public class CollectionDemo2 {
 //
 //		System.out.println(list);
 		
+		Employee emp = new Employee();
 		
 		List myList = new ArrayList();
 		System.out.println(myList.size());
 		myList.add(98);
-		myList.add(96);
-		myList.add(97);
-		myList.add(95);
+		myList.add(96.5);
+		myList.add("abc");
 		myList.add(99);
+		System.out.println(myList);
+		System.out.println(myList.size());
+		myList.add(null);
+		myList.add(emp);
 		System.out.println(myList);
 		System.out.println(myList.size());
 
