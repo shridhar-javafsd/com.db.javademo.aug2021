@@ -25,14 +25,27 @@ public class App2 {
 
 		System.out.println("Hello world!");
 
-		String name = "Vaman";
-		System.out.println(name);
+//		String name = "Vaman";
+//		System.out.println(name);
+//
+//		int num1 = 10, num2 = 20;
+//
+//		int num3 = add(num1, num2);
+//		System.out.println(num3);
 
-		int num1 = 10, num2 = 20;
+		Employee employee = new Employee();
+		employee.id = 101;
+		employee.fName = "Sonu";
+		employee.salary = 10.5;
+		System.out.println(employee.toString());
+		employee.work();
 
-		int num3 = add(num1, num2);
-		System.out.println(num3);
-
+		Employee employee2 = new Employee();
+		employee2.id = 102;
+		employee2.fName = "Monu";
+		employee2.salary = 20.5;
+		System.out.println(employee2.toString());
+		employee2.work();
 	}
 
 }
